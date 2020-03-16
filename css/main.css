@@ -57,6 +57,14 @@ html, body {
     background-color: lightgray; /* Grey background color */
     padding: 20px; /* Some padding */
 }
+.sidebar-left .sidebar-right {
+}
+
+.sidebar  {
+    background-image: url("../img/Domestic_cat_cropped.jpg");
+    /*height: 200px;*/
+    background-size: 150px;
+}
 
 .navbar {
     overflow: hidden;
@@ -137,4 +145,9 @@ html, body {
     padding: 20px;
     text-align: center;
     background: #ddcbd7;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
 }
