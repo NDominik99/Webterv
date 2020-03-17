@@ -145,9 +145,40 @@ html, body {
     padding: 20px;
     text-align: center;
     background: #ddcbd7;
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
+    overflow: hidden;
 
 }
+/*hogy a footer közvetlenül az alján legyen*/
+html{
+    position:relative;
+    min-height: 100%;
+}
+/*Normalize html and body elements,this style is just good to have*/
+/*html,body{*/
+/*    margin:0;*/
+/*    padding:0;*/
+/*}*/
+
+
+.fTable {
+    display: table;
+}
+
+.fRow {
+    display: table-row;
+}
+
+.fHeader {
+    display: table-header-group;
+}
+
+.fCell, .fHeader {
+    display: table-cell;
+}
+
+
+p { margin:0 }
