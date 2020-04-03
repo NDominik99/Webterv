@@ -236,3 +236,9 @@ html{
 
 
 p { margin: 1px}
+
+.main img.product{
+    max-width:50%;
+    height:auto;
+
+}
