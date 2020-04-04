@@ -1,3 +1,10 @@
+#menu ul > li.active > a{
+    color: red;
+}
+
+
+
+
 html, body {
     width: 100%;
     margin: 0;
@@ -241,4 +248,30 @@ p { margin: 1px}
     max-width:50%;
     height:auto;
 
+}
+
+/*.navbar .current*/
+/*{*/
+/*    background-color: #dabdf1;*/
+/*}*/
+
+ul .current
+{
+    background-color: #dabdf1;
+
+}
+
+.dropdown.current
+{
+    background-color: #dabdf1;
+}
+
+div .current
+{
+    background-color: #dabdf1;
+}
+
+.dropdown-content .current
+{
+    background-color: #dabdf1;
 }
