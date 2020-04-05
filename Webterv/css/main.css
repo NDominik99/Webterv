@@ -1,0 +1,316 @@
+#menu ul > li.active > a{
+    color: red;
+}
+
+
+
+
+html, body {
+    width: 100%;
+    margin: 0;
+    background: #8b8b97;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #dabdf1;
+}
+.regbtn {
+    background-color: #3c5eaf;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+
+    width: 100%;
+    opacity: 0.9;
+}
+
+.container {
+    padding: 16px;
+}
+
+.header img.logo {
+    float: left;
+
+    height: 90px;
+}
+
+.header img.yarn {
+    float: right;
+
+    height: 100px;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    padding: 60px 20px;
+    text-align: left;
+    background: lightblue; /* green background */
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 65%;
+}
+@media screen and (max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+.sidebar-left {
+    flex: 15%; /* Set the width of the sidebar */
+    background-color: lightgray; /* Grey background color */
+    padding: 20px; /* Some padding */
+}
+
+.main {
+
+    flex: 70%; /* Set the width of the main content */
+    background-color: white; /* White background color */
+    padding: 20px;
+}
+.sidebar-right {
+    flex: 15%; /* Set the width of the sidebar */
+    background-color: lightgray; /* Grey background color */
+    padding: 20px; /* Some padding */
+}
+.sidebar-left .sidebar-right {
+}
+
+.sidebar  {
+    background-image: url("../img/Domestic_cat_cropped.jpg");
+    /*height: 200px;*/
+    background-size: 150px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: sans-serif;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+/* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 30px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: blue;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#osszeh{
+    border: 1px transparent;
+    /*border-radius: 10px;*/
+    /*border-top: 2px black;*/
+    background-color: white;
+    border-collapse: collapse;
+    /*width: 400px;*/
+
+}
+#osszeh th {
+    background: #fff3f1;
+}
+#osszeg td {
+    /*border: 1px solid greenyellow;*/
+    /*border-radius: 15px;*/
+    background-color: white ;
+}
+#osszeh tr:nth-child(even) {background-color: #f2f2f2;}
+
+#osszeh th, td {
+    /*border: 1px solid #ddd;*/
+    padding: 15px;
+    text-align: left;
+}
+
+#osszeh th, td {
+    border-bottom: 1px solid #ddd;
+}
+.footer{
+
+    padding: 20px;
+    text-align: center;
+    background: #ddcbd7;
+    /*position: absolute;*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+
+    flex-shrink: 0;
+
+
+}
+/*hogy a footer közvetlenül az alján legyen*/
+html{
+    position:relative;
+    min-height: 100%;
+}
+/*Normalize html and body elements,this style is just good to have*/
+/*html,body{*/
+/*    margin:0;*/
+/*    padding:0;*/
+/*}*/
+
+
+.fTable {
+    display: table;
+}
+
+.fRow {
+    display: table-row;
+}
+
+.fHeader {
+    display: table-header-group;
+}
+
+.fCell, .fHeader {
+    display: table-cell;
+}
+
+
+p { margin: 1px}
+
+.main img.product{
+    max-width:50%;
+    height:auto;
+
+}
+
+/*.navbar .current*/
+/*{*/
+/*    background-color: #dabdf1;*/
+/*}*/
+
+ul .current
+{
+    background-color: #dabdf1;
+
+}
+
+.dropdown.current
+{
+    background-color: #dabdf1;
+}
+
+div .current
+{
+    background-color: #dabdf1;
+}
+
+.dropdown-content .current
+{
+    background-color: #dabdf1;
+}
+.rating {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rating:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rating:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rating:not(:checked) > label:before {
+    content: '★ ';
+}
+.rating > input:checked ~ label {
+    color: #0300ff;
+}
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: #336cde;
+}
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #336cde;
+}

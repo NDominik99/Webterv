@@ -1,0 +1,15 @@
+.header, nav, #menubar, #baloldal, #jobboldal, #footelerh, #footfelir
+{
+    display: none;
+}
+/*#kapcs*/
+/*{*/
+/*    display: contents;*/
+/*}*/
+
+#nyitv
+{
+    position: relative;
+    left: 200px;
+    top: -250px;
+}
