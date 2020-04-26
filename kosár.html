@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <title>Webterv</title>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=2'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+</head>
+<body>
+<div class="header">
+    <img src="img/cats.png" class="logo" alt="logo" />
+    <img src="img/yarn.png" class="yarn" alt="cérna" />
+    <h1>Macska gyártó cég</h1>
+</div>
+
+<nav id="menu">
+    <header><h3>Belépés</h3></header>
+    <ul>
+        <li><a href="bejelent.html">Bejelentkezés</a></li>
+        <li><a href="reg.html">Regisztráció</a></li>
+    </ul>
+</nav>
+
+
+<section>
+    <div class="navbar">
+        <a href="index.html">Főoldal</a>
+        <a href="elerhet.html">Kapcsolat</a>
+        <div class="dropdown">
+            <button class="dropbtn">Macskák
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="kismacska.html">Kicsi</a>
+                <a href="kozepes.html">Közepes</a>
+                <a href="nagymacska.html">Nagy</a>
+
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Felhasználók
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="bejelent.html">Bejelentkezés</a>
+                <a href="reg.html">Regisztráció</a>
+            </div>
+        </div>
+        <a class="current" href="kosár.html">Megrendelések</a>
+    </div>
+</section>
+
+<div class="row">
+    <div class="sidebar-left sidebar">
+        <p></p>
+    </div>
+    <div class="main">
+        <table>
+            <caption>Megrendelt Mácskák:</caption>
+            <thead>
+                <tr>
+                    <th id="tipus">Típus</th>
+                    <th id="mdat">Megrendelés Dátuma</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td headers="tipus">Kicsi, elsőféle, alap</td>
+                    <td headers="mdat">2000.05.24.</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+    <div class="sidebar-right sidebar">
+        <p></p>
+    </div>
+</div>
+
+<footer class="footer">
+    <div>
+        <div class="fTable">
+            <div class="fRow">
+                <img width="90" src="img/cats.png" class="logo" alt="logo" />
+            </div>
+            <div class="fRow">
+                <div class="fCell">
+                    <h4>A cégről</h4>
+                    <section><p>tel.: 06701234567</p><p>1088, Budapest, utca 18.</p>
+                        <p>faller.daniel3@gmail.com</p></section>
+                </div>
+                <div class="fCell">
+                    <h4>Nyitvatartás:</h4>
+                    <section>
+                        <p>h:10-14</p>
+                        <p>k:10-14</p>
+                        <p>sz:10-14</p>
+                        <p>cs:10-14</p>
+                    </section>
+                </div>
+                <div class="fCell">
+                    <h4>Iratkozz fel most</h4>
+                    <section><p>Feliratkozom a hírlevélre (am ez is lehet link akar)</p></section>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
